@@ -24,9 +24,10 @@ function Header() {
   return <h2>Fast React Pizza Co.</h2>;
 }
 function Menu() {
+  const style = { color: "red", fontSize: "40px" };
   return (
     <div>
-      <h3>Our Pizza Menu</h3>
+      <h3 style={style}>Our Pizza Menu</h3>
       <ul>
         <li>Margherita</li>
         <li>Pepperoni</li>
